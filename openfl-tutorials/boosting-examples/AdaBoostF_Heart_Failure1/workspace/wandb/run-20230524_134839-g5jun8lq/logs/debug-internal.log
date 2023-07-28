@@ -1,0 +1,239 @@
+2023-05-24 13:48:39,709 INFO    StreamThr :20288 [internal.py:wandb_internal():86] W&B internal server running at pid: 20288, started at: 2023-05-24 13:48:39.709360
+2023-05-24 13:48:39,717 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status
+2023-05-24 13:48:39,717 INFO    WriterThread:20288 [datastore.py:open_for_write():85] open: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\run-g5jun8lq.wandb
+2023-05-24 13:48:39,741 DEBUG   SenderThread:20288 [sender.py:send():375] send: header
+2023-05-24 13:48:40,109 DEBUG   SenderThread:20288 [sender.py:send():375] send: run
+2023-05-24 13:48:40,822 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: check_version
+2023-05-24 13:48:40,822 INFO    SenderThread:20288 [dir_watcher.py:__init__():219] watching files in: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files
+2023-05-24 13:48:40,822 INFO    SenderThread:20288 [sender.py:_start_run_threads():1124] run started: g5jun8lq with start time 1684928919.70936
+2023-05-24 13:48:40,822 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: summary_record
+2023-05-24 13:48:40,830 INFO    SenderThread:20288 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-24 13:48:40,830 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: check_version
+2023-05-24 13:48:41,115 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: run_start
+2023-05-24 13:48:41,163 DEBUG   HandlerThread:20288 [system_info.py:__init__():31] System info init
+2023-05-24 13:48:41,163 DEBUG   HandlerThread:20288 [system_info.py:__init__():46] System info init done
+2023-05-24 13:48:41,163 INFO    HandlerThread:20288 [system_monitor.py:start():181] Starting system monitor
+2023-05-24 13:48:41,163 INFO    SystemMonitor:20288 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-24 13:48:41,163 INFO    HandlerThread:20288 [system_monitor.py:probe():201] Collecting system info
+2023-05-24 13:48:41,171 INFO    SystemMonitor:20288 [interfaces.py:start():190] Started cpu monitoring
+2023-05-24 13:48:41,171 DEBUG   HandlerThread:20288 [system_info.py:probe():195] Probing system
+2023-05-24 13:48:41,179 INFO    SystemMonitor:20288 [interfaces.py:start():190] Started disk monitoring
+2023-05-24 13:48:41,179 INFO    SystemMonitor:20288 [interfaces.py:start():190] Started memory monitoring
+2023-05-24 13:48:41,203 INFO    SystemMonitor:20288 [interfaces.py:start():190] Started network monitoring
+2023-05-24 13:48:41,235 DEBUG   HandlerThread:20288 [system_info.py:_probe_git():180] Probing git
+2023-05-24 13:48:41,843 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\wandb-summary.json
+2023-05-24 13:48:41,915 DEBUG   HandlerThread:20288 [system_info.py:_probe_git():188] Probing git done
+2023-05-24 13:48:41,915 DEBUG   HandlerThread:20288 [system_info.py:probe():240] Probing system done
+2023-05-24 13:48:41,915 DEBUG   HandlerThread:20288 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-05-24T11:48:41.179472', 'startedAt': '2023-05-24T11:48:39.661366', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'AdaBoostF_Heart_Failure.py', 'codePath': 'openfl-tutorials\\boosting-examples\\AdaBoostF_Heart_Failure\\workspace\\AdaBoostF_Heart_Failure.py', 'git': {'remote': 'https://github.com/alpha-unito/OpenFL-extended.git', 'commit': '3c9b6cdacb3b5cdef8384322b571b2e9b2d9dd8c'}, 'email': None, 'root': 'C:/Users/DELL/Downloads/FederatedLearning/OpenFL-extended', 'host': 'DESKTOP-5AJHE86', 'username': 'DELL', 'executable': 'C:\\Users\\DELL\\anaconda3\\envs\\myenv\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 500.0, 'min': 0.0, 'max': 2301.0}, 'cpu_freq_per_core': [{'current': 500.0, 'min': 0.0, 'max': 2301.0}], 'disk': {'total': 133.58313751220703, 'used': 125.08503341674805}, 'memory': {'total': 7.874275207519531}}
+2023-05-24 13:48:41,915 INFO    HandlerThread:20288 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-24 13:48:41,923 INFO    HandlerThread:20288 [system_monitor.py:probe():214] Publishing system info
+2023-05-24 13:48:41,923 DEBUG   HandlerThread:20288 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-24 13:48:41,923 DEBUG   HandlerThread:20288 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-24 13:48:41,923 DEBUG   HandlerThread:20288 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-24 13:48:41,939 ERROR   HandlerThread:20288 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] Le fichier spécifié est introuvable
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] Le fichier spécifié est introuvable
+2023-05-24 13:48:41,947 DEBUG   HandlerThread:20288 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-24 13:48:41,955 INFO    HandlerThread:20288 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-24 13:48:42,011 DEBUG   SenderThread:20288 [sender.py:send():375] send: files
+2023-05-24 13:48:42,011 INFO    SenderThread:20288 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-24 13:48:42,051 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:48:42,051 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:48:42,339 DEBUG   SenderThread:20288 [sender.py:send():375] send: telemetry
+2023-05-24 13:48:42,736 INFO    wandb-upload_0:20288 [upload_job.py:push():137] Uploaded file C:\Users\DELL\AppData\Local\Temp\tmpu77o4lxswandb\i0j4dbu8-wandb-metadata.json
+2023-05-24 13:48:42,848 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\requirements.txt
+2023-05-24 13:48:42,848 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\wandb-metadata.json
+2023-05-24 13:48:42,848 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\conda-environment.yaml
+2023-05-24 13:48:45,368 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:48:50,425 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:48:55,455 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:48:57,057 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:48:57,057 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:49:01,288 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:03,005 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\output.log
+2023-05-24 13:49:05,020 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\output.log
+2023-05-24 13:49:06,684 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:09,052 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\output.log
+2023-05-24 13:49:12,005 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:12,093 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:49:12,357 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:49:13,109 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\config.yaml
+2023-05-24 13:49:17,652 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:22,686 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:27,059 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:49:27,059 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:49:27,571 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\output.log
+2023-05-24 13:49:28,267 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:33,293 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:38,341 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:41,292 DEBUG   SystemMonitor:20288 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-24 13:49:41,300 DEBUG   SenderThread:20288 [sender.py:send():375] send: stats
+2023-05-24 13:49:42,076 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:49:42,076 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:49:44,292 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:49,332 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:54,371 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:49:57,059 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:49:57,059 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:50:00,291 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:05,330 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:10,402 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:11,314 DEBUG   SenderThread:20288 [sender.py:send():375] send: stats
+2023-05-24 13:50:12,074 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:50:12,074 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:50:16,353 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:21,390 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:26,452 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:27,076 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:50:27,076 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:50:32,391 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:37,521 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:41,320 DEBUG   SenderThread:20288 [sender.py:send():375] send: stats
+2023-05-24 13:50:42,080 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:50:42,088 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:50:43,320 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:48,361 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:53,432 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:50:57,088 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-24 13:50:57,088 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: stop_status
+2023-05-24 13:50:59,386 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:51:04,442 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:51:09,469 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:51:11,334 DEBUG   SenderThread:20288 [sender.py:send():375] send: stats
+2023-05-24 13:51:11,358 DEBUG   SenderThread:20288 [sender.py:send():375] send: exit
+2023-05-24 13:51:11,358 INFO    SenderThread:20288 [sender.py:send_exit():598] handling exit code: 0
+2023-05-24 13:51:11,358 INFO    SenderThread:20288 [sender.py:send_exit():600] handling runtime: 150
+2023-05-24 13:51:11,358 INFO    SenderThread:20288 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-24 13:51:11,366 INFO    SenderThread:20288 [sender.py:send_exit():606] send defer
+2023-05-24 13:51:11,366 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:11,366 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-24 13:51:11,366 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:11,366 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-24 13:51:11,366 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 1
+2023-05-24 13:51:11,366 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:11,374 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-24 13:51:11,374 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:11,374 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-24 13:51:11,374 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 2
+2023-05-24 13:51:11,374 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:11,374 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-24 13:51:11,374 INFO    HandlerThread:20288 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-24 13:51:11,374 DEBUG   SystemMonitor:20288 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-24 13:51:11,374 INFO    HandlerThread:20288 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-24 13:51:11,382 DEBUG   SystemMonitor:20288 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-24 13:51:11,382 INFO    HandlerThread:20288 [interfaces.py:finish():202] Joined disk monitor
+2023-05-24 13:51:11,382 INFO    HandlerThread:20288 [interfaces.py:finish():202] Joined memory monitor
+2023-05-24 13:51:11,390 INFO    HandlerThread:20288 [interfaces.py:finish():202] Joined network monitor
+2023-05-24 13:51:11,390 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:11,390 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-24 13:51:11,390 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 3
+2023-05-24 13:51:11,390 DEBUG   SenderThread:20288 [sender.py:send():375] send: stats
+2023-05-24 13:51:11,398 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:11,398 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-24 13:51:11,398 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:11,398 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-24 13:51:11,398 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 4
+2023-05-24 13:51:11,398 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:11,398 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-24 13:51:11,406 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:11,406 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-24 13:51:11,406 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 5
+2023-05-24 13:51:11,406 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:11,406 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-24 13:51:11,406 DEBUG   SenderThread:20288 [sender.py:send():375] send: summary
+2023-05-24 13:51:11,414 INFO    SenderThread:20288 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-24 13:51:11,414 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:11,414 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-24 13:51:11,414 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 6
+2023-05-24 13:51:11,414 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:11,414 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-24 13:51:11,422 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:11,422 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-24 13:51:11,422 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 7
+2023-05-24 13:51:11,422 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: status_report
+2023-05-24 13:51:11,422 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:11,422 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-24 13:51:11,422 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:11,422 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-24 13:51:11,670 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\wandb-summary.json
+2023-05-24 13:51:12,454 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-24 13:51:12,702 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\output.log
+2023-05-24 13:51:13,739 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 8
+2023-05-24 13:51:13,739 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: poll_exit
+2023-05-24 13:51:13,739 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:13,739 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-24 13:51:13,747 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:13,747 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-24 13:51:13,827 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 9
+2023-05-24 13:51:13,827 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:13,827 DEBUG   SenderThread:20288 [sender.py:send():375] send: artifact
+2023-05-24 13:51:13,827 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-24 13:51:14,713 INFO    Thread-16 :20288 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\output.log
+2023-05-24 13:51:14,881 INFO    SenderThread:20288 [sender.py:send_artifact():1474] sent artifact job-https___github.com_alpha-unito_OpenFL-extended.git_openfl-t..es_AdaBoostF_Heart_Failure_workspace_AdaBoostF_Heart_Failure.py - {'id': 'QXJ0aWZhY3Q6NDQyMzg1Mzc4', 'digest': '9177cc921fff83e2f5ea32716677d4d0', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_alpha-unito_OpenFL-extended.git_openfl-t..es_AdaBoostF_Heart_Failure_workspace_AdaBoostF_Heart_Failure.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_alpha-unito_OpenFL-extended.git_openfl-t..es_AdaBoostF_Heart_Failure_workspace_AdaBoostF_Heart_Failure.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY2NjczMjc3', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQ2NTE3NzY4', 'versionIndex': 1}}, 'version': 'v0'}
+2023-05-24 13:51:14,881 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:14,881 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-24 13:51:14,881 INFO    SenderThread:20288 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-24 13:51:15,729 INFO    SenderThread:20288 [dir_watcher.py:finish():395] scan: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files
+2023-05-24 13:51:15,729 INFO    SenderThread:20288 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\conda-environment.yaml conda-environment.yaml
+2023-05-24 13:51:15,737 INFO    SenderThread:20288 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\config.yaml config.yaml
+2023-05-24 13:51:15,737 INFO    SenderThread:20288 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\output.log output.log
+2023-05-24 13:51:15,753 INFO    SenderThread:20288 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\requirements.txt requirements.txt
+2023-05-24 13:51:15,761 INFO    SenderThread:20288 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\wandb-metadata.json wandb-metadata.json
+2023-05-24 13:51:15,769 INFO    SenderThread:20288 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\wandb-summary.json wandb-summary.json
+2023-05-24 13:51:15,793 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 10
+2023-05-24 13:51:15,793 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:15,817 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-24 13:51:15,817 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:15,817 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-24 13:51:15,817 INFO    SenderThread:20288 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-24 13:51:16,289 INFO    wandb-upload_0:20288 [upload_job.py:push():137] Uploaded file C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\config.yaml
+2023-05-24 13:51:16,473 INFO    wandb-upload_1:20288 [upload_job.py:push():137] Uploaded file C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\output.log
+2023-05-24 13:51:16,705 INFO    wandb-upload_3:20288 [upload_job.py:push():137] Uploaded file C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\wandb-summary.json
+2023-05-24 13:51:16,777 INFO    wandb-upload_2:20288 [upload_job.py:push():137] Uploaded file C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\files\requirements.txt
+2023-05-24 13:51:16,985 INFO    Thread-15 :20288 [sender.py:transition_state():626] send defer: 11
+2023-05-24 13:51:16,985 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:16,985 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-24 13:51:16,985 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:16,985 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-24 13:51:16,985 INFO    SenderThread:20288 [file_pusher.py:join():173] waiting for file pusher
+2023-05-24 13:51:16,985 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 12
+2023-05-24 13:51:16,985 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:16,985 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-24 13:51:16,993 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:16,993 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-24 13:51:17,505 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-24 13:51:17,905 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 13
+2023-05-24 13:51:17,913 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:17,913 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-24 13:51:17,913 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:17,921 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-24 13:51:17,921 INFO    SenderThread:20288 [sender.py:transition_state():626] send defer: 14
+2023-05-24 13:51:17,921 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: defer
+2023-05-24 13:51:17,921 INFO    HandlerThread:20288 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-24 13:51:17,929 DEBUG   SenderThread:20288 [sender.py:send():375] send: final
+2023-05-24 13:51:17,929 DEBUG   SenderThread:20288 [sender.py:send():375] send: footer
+2023-05-24 13:51:17,929 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: defer
+2023-05-24 13:51:17,929 INFO    SenderThread:20288 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-24 13:51:17,937 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-24 13:51:17,937 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: server_info
+2023-05-24 13:51:17,945 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-24 13:51:17,945 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: poll_exit
+2023-05-24 13:51:17,945 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-24 13:51:17,945 DEBUG   SenderThread:20288 [sender.py:send_request():402] send_request: server_info
+2023-05-24 13:51:18,161 INFO    MainThread:20288 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-05-24 13:51:18,161 INFO    MainThread:20288 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-05-24 13:51:18,161 INFO    MainThread:20288 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-05-24 13:51:18,177 DEBUG   HandlerThread:20288 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-24 13:51:18,185 INFO    HandlerThread:20288 [handler.py:finish():845] shutting down handler
+2023-05-24 13:51:18,953 INFO    WriterThread:20288 [datastore.py:close():298] close: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230524_134839-g5jun8lq\run-g5jun8lq.wandb
+2023-05-24 13:51:19,161 INFO    SenderThread:20288 [sender.py:finish():1550] shutting down sender
+2023-05-24 13:51:19,161 INFO    SenderThread:20288 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-24 13:51:19,161 INFO    SenderThread:20288 [file_pusher.py:join():173] waiting for file pusher

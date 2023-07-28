@@ -1,0 +1,82 @@
+2023-06-08 13:28:46,723 INFO    StreamThr :15408 [internal.py:wandb_internal():86] W&B internal server running at pid: 15408, started at: 2023-06-08 13:28:46.723856
+2023-06-08 13:28:46,739 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: status
+2023-06-08 13:28:46,739 INFO    WriterThread:15408 [datastore.py:open_for_write():85] open: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230608_132846-dnu57j85\run-dnu57j85.wandb
+2023-06-08 13:28:46,770 DEBUG   SenderThread:15408 [sender.py:send():375] send: header
+2023-06-08 13:28:47,286 DEBUG   SenderThread:15408 [sender.py:send():375] send: run
+2023-06-08 13:28:50,645 INFO    SenderThread:15408 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020D4B4A0A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020D4B4A0A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\internal\internal_api.py", line 285, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\lib\gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020D4B4A0A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-06-08 13:28:52,344 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:28:57,422 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:02,484 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:07,519 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:12,555 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:17,583 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:22,639 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:27,716 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:32,772 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:37,803 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:42,862 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-08 13:29:47,894 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: cancel
+2023-06-08 13:29:47,894 DEBUG   SenderThread:15408 [sender.py:send():384] Record cancelled: run
+2023-06-08 13:29:47,894 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: cancel
+2023-06-08 13:29:47,902 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: status_report
+2023-06-08 13:29:47,990 DEBUG   HandlerThread:15408 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-08 13:29:47,990 INFO    HandlerThread:15408 [handler.py:finish():845] shutting down handler
+2023-06-08 13:29:48,903 INFO    WriterThread:15408 [datastore.py:close():298] close: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Heart_Failure\workspace\wandb\run-20230608_132846-dnu57j85\run-dnu57j85.wandb
+2023-06-08 13:29:48,903 INFO    SenderThread:15408 [sender.py:finish():1550] shutting down sender

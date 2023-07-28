@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "AdaBoostF_Heart_Failure.py", line 129, in <module>
+    fl_experiment.start(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\interface\interactive_api\experiment.py", line 234, in start
+    self.prepare_workspace_distribution(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\interface\interactive_api\experiment.py", line 177, in prepare_workspace_distribution
+    self._serialize_interface_objects(model_provider, task_keeper, data_loader, task_assigner)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\interface\interactive_api\experiment.py", line 436, in _serialize_interface_objects
+    self.plan.config['api_layer']['required_plugin_components']['serializer_plugin'], {})
+KeyError: 'api_layer'

@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-05-10T14:31:51.981259",
+    "startedAt": "2023-05-10T14:31:50.909864",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "AdaBoostF_Heart_Failure.py",
+    "codePath": "openfl-tutorials\\boosting-examples\\AdaBoostF_Heart_Failure\\workspace\\AdaBoostF_Heart_Failure.py",
+    "git": {
+        "remote": "https://github.com/alpha-unito/OpenFL-extended.git",
+        "commit": "3c9b6cdacb3b5cdef8384322b571b2e9b2d9dd8c"
+    },
+    "email": null,
+    "root": "C:/Users/DELL/Downloads/FederatedLearning/OpenFL-extended",
+    "host": "DESKTOP-5AJHE86",
+    "username": "DELL",
+    "executable": "C:\\Users\\DELL\\anaconda3\\envs\\myenv\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1400.0,
+        "min": 0.0,
+        "max": 2301.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400.0,
+            "min": 0.0,
+            "max": 2301.0
+        }
+    ],
+    "disk": {
+        "total": 133.58313751220703,
+        "used": 126.30866241455078
+    },
+    "memory": {
+        "total": 7.874275207519531
+    }
+}

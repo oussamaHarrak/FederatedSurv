@@ -1,0 +1,5 @@
+[default]
+entity = harrak-oussama2002
+project = Federated_Learning_iris
+base_url = https://api.wandb.ai
+

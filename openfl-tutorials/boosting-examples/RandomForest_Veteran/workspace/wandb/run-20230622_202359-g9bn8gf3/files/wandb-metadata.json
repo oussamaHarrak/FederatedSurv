@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-06-22T18:24:01.380375",
+    "startedAt": "2023-06-22T18:23:59.786744",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "RandomForest_Veteran.py",
+    "codePath": "openfl-tutorials\\boosting-examples\\RandomForest_Veteran\\workspace\\RandomForest_Veteran.py",
+    "git": {
+        "remote": "git@github.com:oussamaHarrak/FederatedSurv.git",
+        "commit": "881c2247ee55a5b37869585b5a05f8038479f5ef"
+    },
+    "email": "harrak.oussama2002@gmail.com",
+    "root": "C:/Users/DELL/Downloads/FederatedLearning/OpenFL-extended",
+    "host": "DESKTOP-5AJHE86",
+    "username": "DELL",
+    "executable": "C:\\Users\\DELL\\anaconda3\\envs\\myenv\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 500.0,
+        "min": 0.0,
+        "max": 2301.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 500.0,
+            "min": 0.0,
+            "max": 2301.0
+        }
+    ],
+    "disk": {
+        "total": 133.58313751220703,
+        "used": 126.57136154174805
+    },
+    "memory": {
+        "total": 7.874275207519531
+    }
+}

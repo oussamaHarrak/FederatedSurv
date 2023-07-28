@@ -1,0 +1,203 @@
+2023-07-06 12:02:43,463 INFO    StreamThr :16080 [internal.py:wandb_internal():86] W&B internal server running at pid: 16080, started at: 2023-07-06 12:02:43.447975
+2023-07-06 12:02:43,463 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: status
+2023-07-06 12:02:43,463 INFO    WriterThread:16080 [datastore.py:open_for_write():85] open: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\run-9scqgioy.wandb
+2023-07-06 12:02:43,494 DEBUG   SenderThread:16080 [sender.py:send():375] send: header
+2023-07-06 12:02:43,776 DEBUG   SenderThread:16080 [sender.py:send():375] send: run
+2023-07-06 12:02:44,343 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: check_version
+2023-07-06 12:02:44,343 INFO    SenderThread:16080 [dir_watcher.py:__init__():219] watching files in: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files
+2023-07-06 12:02:44,343 INFO    SenderThread:16080 [sender.py:_start_run_threads():1124] run started: 9scqgioy with start time 1688637763.463599
+2023-07-06 12:02:44,343 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: summary_record
+2023-07-06 12:02:44,343 INFO    SenderThread:16080 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-07-06 12:02:44,343 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: check_version
+2023-07-06 12:02:44,577 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: run_start
+2023-07-06 12:02:44,609 DEBUG   HandlerThread:16080 [system_info.py:__init__():31] System info init
+2023-07-06 12:02:44,609 DEBUG   HandlerThread:16080 [system_info.py:__init__():46] System info init done
+2023-07-06 12:02:44,609 INFO    HandlerThread:16080 [system_monitor.py:start():181] Starting system monitor
+2023-07-06 12:02:44,609 INFO    SystemMonitor:16080 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-06 12:02:44,609 INFO    HandlerThread:16080 [system_monitor.py:probe():201] Collecting system info
+2023-07-06 12:02:44,609 INFO    SystemMonitor:16080 [interfaces.py:start():190] Started cpu monitoring
+2023-07-06 12:02:44,609 DEBUG   HandlerThread:16080 [system_info.py:probe():195] Probing system
+2023-07-06 12:02:44,609 INFO    SystemMonitor:16080 [interfaces.py:start():190] Started disk monitoring
+2023-07-06 12:02:44,609 INFO    SystemMonitor:16080 [interfaces.py:start():190] Started memory monitoring
+2023-07-06 12:02:44,640 INFO    SystemMonitor:16080 [interfaces.py:start():190] Started network monitoring
+2023-07-06 12:02:44,655 DEBUG   HandlerThread:16080 [system_info.py:_probe_git():180] Probing git
+2023-07-06 12:02:45,030 DEBUG   HandlerThread:16080 [system_info.py:_probe_git():188] Probing git done
+2023-07-06 12:02:45,030 DEBUG   HandlerThread:16080 [system_info.py:probe():240] Probing system done
+2023-07-06 12:02:45,030 DEBUG   HandlerThread:16080 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-07-06T10:02:44.609012', 'startedAt': '2023-07-06T10:02:43.401103', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'RandomForest_Heart_Failure.py', 'codePath': 'openfl-tutorials\\boosting-examples\\RandomForest_Heart_Failure\\workspace\\RandomForest_Heart_Failure.py', 'git': {'remote': 'git@github.com:oussamaHarrak/FederatedSurv.git', 'commit': 'f82adb16e2a2d8274f04e6643c3f5e2b48f6fc8d'}, 'email': 'harrak.oussama2002@gmail.com', 'root': 'C:/Users/DELL/Downloads/FederatedLearning/OpenFL-extended', 'host': 'DESKTOP-5AJHE86', 'username': 'DELL', 'executable': 'C:\\Users\\DELL\\anaconda3\\envs\\myenv\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 1500.0, 'min': 0.0, 'max': 2301.0}, 'cpu_freq_per_core': [{'current': 1500.0, 'min': 0.0, 'max': 2301.0}], 'disk': {'total': 133.58313751220703, 'used': 132.13739013671875}, 'memory': {'total': 7.874275207519531}}
+2023-07-06 12:02:45,030 INFO    HandlerThread:16080 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-06 12:02:45,030 INFO    HandlerThread:16080 [system_monitor.py:probe():214] Publishing system info
+2023-07-06 12:02:45,030 DEBUG   HandlerThread:16080 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-06 12:02:45,030 DEBUG   HandlerThread:16080 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-06 12:02:45,046 DEBUG   HandlerThread:16080 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-06 12:02:45,046 ERROR   HandlerThread:16080 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] Le fichier spécifié est introuvable
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] Le fichier spécifié est introuvable
+2023-07-06 12:02:45,062 DEBUG   HandlerThread:16080 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-06 12:02:45,062 INFO    HandlerThread:16080 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-06 12:02:45,108 DEBUG   SenderThread:16080 [sender.py:send():375] send: files
+2023-07-06 12:02:45,108 INFO    SenderThread:16080 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-07-06 12:02:45,140 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-06 12:02:45,140 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: stop_status
+2023-07-06 12:02:45,358 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\wandb-summary.json
+2023-07-06 12:02:45,358 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\wandb-metadata.json
+2023-07-06 12:02:45,358 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\requirements.txt
+2023-07-06 12:02:45,358 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\conda-environment.yaml
+2023-07-06 12:02:45,358 DEBUG   SenderThread:16080 [sender.py:send():375] send: telemetry
+2023-07-06 12:02:45,749 INFO    wandb-upload_0:16080 [upload_job.py:push():137] Uploaded file C:\Users\DELL\AppData\Local\Temp\tmpfvus_qvbwandb\kgo0a72z-wandb-metadata.json
+2023-07-06 12:02:46,374 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\output.log
+2023-07-06 12:02:47,405 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\output.log
+2023-07-06 12:02:48,421 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\output.log
+2023-07-06 12:02:48,968 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: status_report
+2023-07-06 12:02:51,467 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\output.log
+2023-07-06 12:02:54,342 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: status_report
+2023-07-06 12:02:59,419 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: status_report
+2023-07-06 12:03:00,154 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-06 12:03:00,154 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: stop_status
+2023-07-06 12:03:04,435 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: status_report
+2023-07-06 12:03:09,496 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: status_report
+2023-07-06 12:03:14,563 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: status_report
+2023-07-06 12:03:14,891 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\config.yaml
+2023-07-06 12:03:15,172 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-06 12:03:15,172 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: stop_status
+2023-07-06 12:03:17,891 DEBUG   SenderThread:16080 [sender.py:send():375] send: exit
+2023-07-06 12:03:17,891 INFO    SenderThread:16080 [sender.py:send_exit():598] handling exit code: 0
+2023-07-06 12:03:17,891 INFO    SenderThread:16080 [sender.py:send_exit():600] handling runtime: 33
+2023-07-06 12:03:17,891 INFO    SenderThread:16080 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-07-06 12:03:17,891 INFO    SenderThread:16080 [sender.py:send_exit():606] send defer
+2023-07-06 12:03:17,891 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:17,907 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-06 12:03:17,907 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:17,907 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-07-06 12:03:17,907 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 1
+2023-07-06 12:03:17,907 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:17,907 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-06 12:03:17,907 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:17,907 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-07-06 12:03:17,907 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 2
+2023-07-06 12:03:17,907 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:17,907 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-06 12:03:17,907 INFO    HandlerThread:16080 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-06 12:03:17,907 DEBUG   SystemMonitor:16080 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-06 12:03:17,907 DEBUG   SystemMonitor:16080 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-06 12:03:17,907 INFO    HandlerThread:16080 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-06 12:03:17,907 DEBUG   SystemMonitor:16080 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-06 12:03:17,907 INFO    HandlerThread:16080 [interfaces.py:finish():202] Joined disk monitor
+2023-07-06 12:03:17,923 INFO    HandlerThread:16080 [interfaces.py:finish():202] Joined memory monitor
+2023-07-06 12:03:17,923 INFO    HandlerThread:16080 [interfaces.py:finish():202] Joined network monitor
+2023-07-06 12:03:17,923 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:17,923 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-07-06 12:03:17,923 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 3
+2023-07-06 12:03:17,923 DEBUG   SenderThread:16080 [sender.py:send():375] send: stats
+2023-07-06 12:03:17,923 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:17,923 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-06 12:03:17,923 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:17,923 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-07-06 12:03:17,923 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 4
+2023-07-06 12:03:17,923 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:17,923 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-06 12:03:17,923 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:17,923 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\wandb-summary.json
+2023-07-06 12:03:17,938 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-07-06 12:03:17,938 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 5
+2023-07-06 12:03:17,938 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:17,938 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-06 12:03:17,938 DEBUG   SenderThread:16080 [sender.py:send():375] send: summary
+2023-07-06 12:03:17,938 INFO    SenderThread:16080 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-07-06 12:03:17,938 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:17,938 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-07-06 12:03:17,938 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 6
+2023-07-06 12:03:17,938 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:17,938 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-06 12:03:17,938 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:17,938 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-07-06 12:03:17,938 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 7
+2023-07-06 12:03:17,954 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: status_report
+2023-07-06 12:03:17,954 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:17,954 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-06 12:03:17,954 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:17,954 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-07-06 12:03:18,923 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\wandb-summary.json
+2023-07-06 12:03:18,985 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-06 12:03:19,938 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\output.log
+2023-07-06 12:03:20,126 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 8
+2023-07-06 12:03:20,126 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: poll_exit
+2023-07-06 12:03:20,126 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:20,126 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-06 12:03:20,126 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:20,126 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-07-06 12:03:20,188 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 9
+2023-07-06 12:03:20,188 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:20,188 DEBUG   SenderThread:16080 [sender.py:send():375] send: artifact
+2023-07-06 12:03:20,188 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-06 12:03:20,954 INFO    Thread-16 :16080 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\output.log
+2023-07-06 12:03:21,922 INFO    wandb-upload_0:16080 [upload_job.py:push():95] Uploaded file C:\Users\DELL\AppData\Local\wandb\wandb\artifacts\staging\tmp6qf5hcg6
+2023-07-06 12:03:21,954 INFO    wandb-upload_1:16080 [upload_job.py:push():95] Uploaded file C:\Users\DELL\AppData\Local\wandb\wandb\artifacts\staging\tmph9lcsc7n
+2023-07-06 12:03:23,438 INFO    SenderThread:16080 [sender.py:send_artifact():1474] sent artifact job-git_github.com_oussamaHarrak_FederatedSurv.git_openfl-tutor..domForest_Heart_Failure_workspace_RandomForest_Heart_Failure.py - {'id': 'QXJ0aWZhY3Q6NTA2NzE4OTA4', 'digest': '7c6fa95ba4e65e695de59e68208e7c02', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc4NTQ4MTMw', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDk2MDIxOTkw', 'versionIndex': 0}}, 'version': 'latest'}
+2023-07-06 12:03:23,438 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:23,438 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-07-06 12:03:23,438 INFO    SenderThread:16080 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-07-06 12:03:23,985 INFO    SenderThread:16080 [dir_watcher.py:finish():395] scan: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files
+2023-07-06 12:03:23,985 INFO    SenderThread:16080 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\conda-environment.yaml conda-environment.yaml
+2023-07-06 12:03:23,985 INFO    SenderThread:16080 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\config.yaml config.yaml
+2023-07-06 12:03:23,985 INFO    SenderThread:16080 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\output.log output.log
+2023-07-06 12:03:24,000 INFO    SenderThread:16080 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\requirements.txt requirements.txt
+2023-07-06 12:03:24,016 INFO    SenderThread:16080 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\wandb-metadata.json wandb-metadata.json
+2023-07-06 12:03:24,016 INFO    SenderThread:16080 [dir_watcher.py:finish():409] scan save: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\wandb-summary.json wandb-summary.json
+2023-07-06 12:03:24,032 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 10
+2023-07-06 12:03:24,032 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:24,032 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-06 12:03:24,047 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:24,047 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-07-06 12:03:24,047 INFO    SenderThread:16080 [file_pusher.py:finish():168] shutting down file pusher
+2023-07-06 12:03:24,063 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-06 12:03:24,453 INFO    wandb-upload_0:16080 [upload_job.py:push():137] Uploaded file C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\config.yaml
+2023-07-06 12:03:24,579 INFO    wandb-upload_1:16080 [upload_job.py:push():137] Uploaded file C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\output.log
+2023-07-06 12:03:24,703 INFO    wandb-upload_2:16080 [upload_job.py:push():137] Uploaded file C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\requirements.txt
+2023-07-06 12:03:24,703 INFO    wandb-upload_3:16080 [upload_job.py:push():137] Uploaded file C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\files\wandb-summary.json
+2023-07-06 12:03:24,922 INFO    Thread-15 :16080 [sender.py:transition_state():626] send defer: 11
+2023-07-06 12:03:24,922 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:24,922 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-06 12:03:24,922 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:24,922 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-07-06 12:03:24,922 INFO    SenderThread:16080 [file_pusher.py:join():173] waiting for file pusher
+2023-07-06 12:03:24,922 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 12
+2023-07-06 12:03:24,922 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:24,922 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-06 12:03:24,922 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:24,922 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-07-06 12:03:25,172 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 13
+2023-07-06 12:03:25,172 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:25,172 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-06 12:03:25,172 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: status_report
+2023-07-06 12:03:25,172 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:25,172 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-07-06 12:03:25,172 INFO    SenderThread:16080 [sender.py:transition_state():626] send defer: 14
+2023-07-06 12:03:25,172 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: defer
+2023-07-06 12:03:25,172 INFO    HandlerThread:16080 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-06 12:03:25,172 DEBUG   SenderThread:16080 [sender.py:send():375] send: final
+2023-07-06 12:03:25,188 DEBUG   SenderThread:16080 [sender.py:send():375] send: footer
+2023-07-06 12:03:25,188 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: defer
+2023-07-06 12:03:25,188 INFO    SenderThread:16080 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-07-06 12:03:25,188 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-06 12:03:25,188 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: server_info
+2023-07-06 12:03:25,188 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-06 12:03:25,188 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-06 12:03:25,188 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: poll_exit
+2023-07-06 12:03:25,188 DEBUG   SenderThread:16080 [sender.py:send_request():402] send_request: server_info
+2023-07-06 12:03:25,375 INFO    MainThread:16080 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-07-06 12:03:25,375 INFO    MainThread:16080 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-07-06 12:03:25,375 INFO    MainThread:16080 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-07-06 12:03:25,391 DEBUG   HandlerThread:16080 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-06 12:03:25,391 INFO    HandlerThread:16080 [handler.py:finish():845] shutting down handler
+2023-07-06 12:03:26,188 INFO    WriterThread:16080 [datastore.py:close():298] close: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\RandomForest_Heart_Failure\workspace\wandb\run-20230706_120243-9scqgioy\run-9scqgioy.wandb
+2023-07-06 12:03:26,391 INFO    SenderThread:16080 [sender.py:finish():1550] shutting down sender
+2023-07-06 12:03:26,391 INFO    SenderThread:16080 [file_pusher.py:finish():168] shutting down file pusher
+2023-07-06 12:03:26,391 INFO    SenderThread:16080 [file_pusher.py:join():173] waiting for file pusher

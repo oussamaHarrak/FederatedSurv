@@ -1,0 +1,36 @@
+[13:19:35] [34mINFO    [39m Waiting for tasks[33m...[39m                                                                                                     ]8;id=502611;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py\collaborator.py]8;;\:]8;id=437720;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py#210\210]8;;\
+           [34mINFO    [39m Received the following tasks: [1m[[22mname: [32m"1_train"[39m                                                                           ]8;id=138899;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py\collaborator.py]8;;\:]8;id=758822;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py#172\172]8;;\
+                    , name: [32m"2_weak_learners_validate"
+                    , name: [32m"3_adaboost_update"
+                    , name: [32m"4_adaboost_validate"
+                    [1m]
+           [34mINFO    [39m Using Interactive Python API                                                                                             ]8;id=831646;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py\collaborator.py]8;;\:]8;id=684798;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py#269\269]8;;\
+Train Concordance Index  : 0.7045123726346434
+           METRIC   Round [1m0[22m, collaborator envoy_1 is sending metric for task 1_train: Corcondance-index     [1m0.7045123726346434[22m               ]8;id=899232;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py\collaborator.py]8;;\:]8;id=84967;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py#526\526]8;;\
+           [34mINFO    [39m Waiting for global task completion[33m...[39m                                                                                    ]8;id=614578;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py\collaborator.py]8;;\:]8;id=134393;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py#355\355]8;;\
+           [34mINFO    [39m Using Interactive Python API                                                                                             ]8;id=363269;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py\collaborator.py]8;;\:]8;id=712331;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py#269\269]8;;\
+[13:19:37] [1mERROR   [22m Collaborator failed with error: object of too small depth for desired array:                                                     ]8;id=219354;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\envoy\envoy.py\envoy.py]8;;\:]8;id=919908;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\envoy\envoy.py#93\93]8;;\
+                    Traceback [1m([22mmost recent call last[1m)[22m:
+                      File [32m"C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\envoy\envoy.py"[39m, line [1m91[22m, in run
+                        [1mself._run_collaborator()
+                      File [32m"C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\envoy\envoy.py"[39m, line [1m164[22m, in
+                    _run_collaborator
+                        [1mcol.run()
+                      File [32m"C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py"[39m, line [1m174[22m, in
+                    run
+                        [1mself.do_task([22mtask, round_number[1m)
+                      File [32m"C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\component\collaborator\collaborator.py"[39m, line [1m300[22m, in
+                    do_task
+                        global_output_tensor_dict, local_output_tensor_dict, optional = [1mfunc(
+                      File [32m"C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\federated\task\runner_generic.py"[39m, line [1m79[22m, in
+                    collaborator_adapted_task
+                        metric_dict = [1mcallable_task([22m**task_kwargs[1m)
+                      File [32m"C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\interface\interactive_api\experiment.py"[39m, line [1m512[22m,
+                    in wrapper_decorator
+                        metric_dict = [1mtraining_method([22m**task_keywords[1m)
+                      File [32m"AdaBoostF_Veteran.py"[39m, line [1m95[22m, in validate_weak_learners
+                      File [32m"<__array_function__ internals>"[39m, line [1m180[22m, in interp
+                      File [32m"C:\Users\DELL\anaconda3\envs\myenv\lib\site-packages\numpy\lib\function_base.py"[39m, line [1m1594[22m, in interp
+                        return [1minterp_func([22mx, xp, fp, left, right[1m)
+                    ValueError: object of too small depth for desired array
+           [34mINFO    [39m Send WaitExperiment request                                                                                            ]8;id=253292;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\transport\grpc\director_client.py\director_client.py]8;;\:]8;id=1660;file://C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\transport\grpc\director_client.py#81\81]8;;\

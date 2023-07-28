@@ -1,0 +1,27 @@
+2023-05-29 22:02:52,813 INFO    MainThread:864 [wandb_setup.py:_flush():76] Configure stats pid to 864
+2023-05-29 22:02:52,813 INFO    MainThread:864 [wandb_setup.py:_flush():76] Loading settings from C:\Users\DELL\.config\wandb\settings
+2023-05-29 22:02:52,814 INFO    MainThread:864 [wandb_setup.py:_flush():76] Loading settings from C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Veteran\workspace\wandb\settings
+2023-05-29 22:02:52,814 INFO    MainThread:864 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-29 22:02:52,814 INFO    MainThread:864 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-29 22:02:52,816 INFO    MainThread:864 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'openfl-tutorials\\boosting-examples\\AdaBoostF_Veteran\\workspace\\AdaBoostF_Veteran.py', 'program': 'AdaBoostF_Veteran.py'}
+2023-05-29 22:02:52,817 INFO    MainThread:864 [wandb_init.py:_log_setup():507] Logging user logs to C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Veteran\workspace\wandb\run-20230529_220252-f7mkhn05\logs\debug.log
+2023-05-29 22:02:52,818 INFO    MainThread:864 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\AdaBoostF_Veteran\workspace\wandb\run-20230529_220252-f7mkhn05\logs\debug-internal.log
+2023-05-29 22:02:52,818 INFO    MainThread:864 [wandb_init.py:init():547] calling init triggers
+2023-05-29 22:02:52,818 INFO    MainThread:864 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-05-29 22:02:52,819 INFO    MainThread:864 [wandb_init.py:init():595] starting backend
+2023-05-29 22:02:52,819 INFO    MainThread:864 [wandb_init.py:init():599] setting up manager
+2023-05-29 22:02:52,833 INFO    MainThread:864 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-05-29 22:02:52,848 INFO    MainThread:864 [wandb_init.py:init():605] backend started and connected
+2023-05-29 22:02:52,851 INFO    MainThread:864 [wandb_init.py:init():695] updated telemetry
+2023-05-29 22:02:53,091 INFO    MainThread:864 [wandb_init.py:init():732] communicating run to backend with 60.0 second timeout
+2023-05-29 22:02:53,655 INFO    MainThread:864 [wandb_run.py:_on_init():2176] communicating current version
+2023-05-29 22:02:53,992 INFO    MainThread:864 [wandb_run.py:_on_init():2185] got version response upgrade_message: "wandb version 0.15.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-05-29 22:02:53,993 INFO    MainThread:864 [wandb_init.py:init():782] starting run threads in backend
+2023-05-29 22:04:06,303 INFO    MainThread:864 [wandb_run.py:_console_start():2157] atexit reg
+2023-05-29 22:04:06,303 INFO    MainThread:864 [wandb_run.py:_redirect():2012] redirect: SettingsConsole.WRAP_RAW
+2023-05-29 22:04:06,304 INFO    MainThread:864 [wandb_run.py:_redirect():2077] Wrapping output streams.
+2023-05-29 22:04:06,305 INFO    MainThread:864 [wandb_run.py:_redirect():2102] Redirects installed.
+2023-05-29 22:04:06,308 INFO    MainThread:864 [wandb_init.py:init():824] run started, returning control to user process
+2023-05-29 22:07:10,940 WARNING MsgRouterThr:864 [router.py:message_loop():77] message_loop has been closed

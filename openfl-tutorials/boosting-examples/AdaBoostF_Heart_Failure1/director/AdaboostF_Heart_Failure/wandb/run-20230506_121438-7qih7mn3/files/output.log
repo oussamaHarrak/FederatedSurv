@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "AdaBoostF_Heart_Failure.py", line 129, in <module>
+    fl_experiment.start(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\interface\interactive_api\experiment.py", line 225, in start
+    self._prepare_plan(model_provider, data_loader,
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\openfl\interface\interactive_api\experiment.py", line 382, in _prepare_plan
+    self.plan.config['network']['settings']['agg_addr'] = director_fqdn
+KeyError: 'network'
