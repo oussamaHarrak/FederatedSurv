@@ -1,0 +1,61 @@
+2023-08-17 19:43:40,851 INFO    StreamThr :20040 [internal.py:wandb_internal():86] W&B internal server running at pid: 20040, started at: 2023-08-17 19:43:40.849144
+2023-08-17 19:43:40,851 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: status
+2023-08-17 19:43:40,851 INFO    WriterThread:20040 [datastore.py:open_for_write():85] open: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_1\envoy_1_AdaboostF_Fl_Chain\wandb\run-20230817_194340-fra1yj7b\run-fra1yj7b.wandb
+2023-08-17 19:43:40,866 DEBUG   SenderThread:20040 [sender.py:send():375] send: header
+2023-08-17 19:43:40,999 DEBUG   SenderThread:20040 [sender.py:send():375] send: run
+2023-08-17 19:43:41,900 INFO    SenderThread:20040 [dir_watcher.py:__init__():219] watching files in: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_1\envoy_1_AdaboostF_Fl_Chain\wandb\run-20230817_194340-fra1yj7b\files
+2023-08-17 19:43:41,900 INFO    SenderThread:20040 [sender.py:_start_run_threads():1124] run started: fra1yj7b with start time 1692294220.849144
+2023-08-17 19:43:41,900 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: check_version
+2023-08-17 19:43:41,900 DEBUG   SenderThread:20040 [sender.py:send_request():402] send_request: summary_record
+2023-08-17 19:43:41,900 INFO    SenderThread:20040 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-17 19:43:41,900 DEBUG   SenderThread:20040 [sender.py:send_request():402] send_request: check_version
+2023-08-17 19:43:42,353 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: run_start
+2023-08-17 19:43:42,373 DEBUG   HandlerThread:20040 [system_info.py:__init__():31] System info init
+2023-08-17 19:43:42,373 DEBUG   HandlerThread:20040 [system_info.py:__init__():46] System info init done
+2023-08-17 19:43:42,373 INFO    HandlerThread:20040 [system_monitor.py:start():181] Starting system monitor
+2023-08-17 19:43:42,373 INFO    SystemMonitor:20040 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-17 19:43:42,373 INFO    HandlerThread:20040 [system_monitor.py:probe():201] Collecting system info
+2023-08-17 19:43:42,379 INFO    SystemMonitor:20040 [interfaces.py:start():190] Started cpu monitoring
+2023-08-17 19:43:42,380 DEBUG   HandlerThread:20040 [system_info.py:probe():195] Probing system
+2023-08-17 19:43:42,380 INFO    SystemMonitor:20040 [interfaces.py:start():190] Started disk monitoring
+2023-08-17 19:43:42,382 INFO    SystemMonitor:20040 [interfaces.py:start():190] Started memory monitoring
+2023-08-17 19:43:42,399 INFO    SystemMonitor:20040 [interfaces.py:start():190] Started network monitoring
+2023-08-17 19:43:42,399 DEBUG   HandlerThread:20040 [system_info.py:_probe_git():180] Probing git
+2023-08-17 19:43:42,666 DEBUG   HandlerThread:20040 [system_info.py:_probe_git():188] Probing git done
+2023-08-17 19:43:42,666 DEBUG   HandlerThread:20040 [system_info.py:probe():240] Probing system done
+2023-08-17 19:43:42,666 DEBUG   HandlerThread:20040 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-08-17T17:43:42.380786', 'startedAt': '2023-08-17T17:43:40.816626', 'docker': None, 'cuda': None, 'args': ('envoy', 'start', '-n', 'envoy_1', '--disable-tls', '--envoy-config-path', 'envoy_config.yaml', '-dh', 'localhost', '-dp', '50054'), 'state': 'running', 'program': '-m __main__', 'git': {'remote': 'git@github.com:oussamaHarrak/FederatedSurv.git', 'commit': '3fd5c3f04fc89d5dcb2c4a6926997a517d9ea1b2'}, 'email': 'harrak.oussama2002@gmail.com', 'root': 'C:/Users/DELL/Downloads/FederatedLearning/OpenFL-extended', 'host': 'DESKTOP-5AJHE86', 'username': 'DELL', 'executable': 'C:\\Users\\DELL\\anaconda3\\envs\\myenv\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2301.0, 'min': 0.0, 'max': 2301.0}, 'cpu_freq_per_core': [{'current': 2301.0, 'min': 0.0, 'max': 2301.0}], 'disk': {'total': 133.58313751220703, 'used': 128.36212921142578}, 'memory': {'total': 7.874275207519531}}
+2023-08-17 19:43:42,666 INFO    HandlerThread:20040 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-17 19:43:42,666 INFO    HandlerThread:20040 [system_monitor.py:probe():214] Publishing system info
+2023-08-17 19:43:42,666 DEBUG   HandlerThread:20040 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-17 19:43:42,683 DEBUG   HandlerThread:20040 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-17 19:43:42,683 DEBUG   HandlerThread:20040 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-17 19:43:42,683 ERROR   HandlerThread:20040 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] Le fichier spécifié est introuvable
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] Le fichier spécifié est introuvable
+2023-08-17 19:43:42,683 DEBUG   HandlerThread:20040 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-17 19:43:42,683 INFO    HandlerThread:20040 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-17 19:43:42,716 DEBUG   SenderThread:20040 [sender.py:send():375] send: files
+2023-08-17 19:43:42,716 INFO    SenderThread:20040 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-08-17 19:43:42,735 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 19:43:42,735 DEBUG   SenderThread:20040 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 19:43:43,366 DEBUG   SenderThread:20040 [sender.py:send():375] send: telemetry
+2023-08-17 19:43:43,366 WARNING SenderThread:20040 [sender.py:send_output_raw():1281] could not open output_raw_file: [Errno 2] No such file or directory: 'C:\\Users\\DELL\\Downloads\\FederatedLearning\\OpenFL-extended\\openfl-tutorials\\boosting-examples\\CoxPH\\AdaBoostF_FL_Chain\\envoy_1\\envoy_1_AdaboostF_Fl_Chain\\wandb\\run-20230817_194340-fra1yj7b\\files\\output.log'
+2023-08-17 19:43:43,466 INFO    wandb-upload_0:20040 [upload_job.py:push():137] Uploaded file C:\Users\DELL\AppData\Local\Temp\tmpp05ic_cmwandb\tk22k0ip-wandb-metadata.json
+2023-08-17 19:43:46,415 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 19:43:51,448 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 19:43:56,481 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 19:43:57,730 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 19:43:57,730 DEBUG   SenderThread:20040 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 19:44:02,030 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 19:44:07,063 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 19:44:12,111 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 19:44:12,745 DEBUG   HandlerThread:20040 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 19:44:12,745 DEBUG   SenderThread:20040 [sender.py:send_request():402] send_request: stop_status

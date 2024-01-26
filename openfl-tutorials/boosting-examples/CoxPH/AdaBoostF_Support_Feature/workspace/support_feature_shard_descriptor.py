@@ -13,10 +13,8 @@ from openfl.interface.interactive_api.shard_descriptor import ShardDataset
 from openfl.interface.interactive_api.shard_descriptor import ShardDescriptor
 
 from openfl.utilities.data_splitters.numpy import QuantitySkewLabelsSplitter
-
-from openfl.utilities.data_splitters.numpy import     QuantitySkewLabelsSplitter
 from openfl.utilities.data_splitters.numpy import QuantitySkewSplitter
-from openfl.utilities.data_splitters.numpy import RandomNumPyDataSplitter
+from openfl.utilities.data_splitters.numpy import RandomNumPyDataSplitter 
 from sklearn.model_selection import train_test_split
     
 
@@ -32,17 +30,32 @@ class support_feature_ShardDataset(ShardDataset):
         self.data_type = data_type
         self.rank = rank
         self.worldsize = worldsize
+        splitter =  QuantitySkewLabelsSplitter(class_per_client = 2)
+        event_indicator = y.iloc[:,1].values
+        idx = splitter.split(event_indicator , self.worldsize)[self.rank - 1]   
+        self.x = x if complete else x.iloc[idx,:]
+        self.y = y if complete else  y.iloc[idx,:] 
+        print(f"Shape of X : {(self.x).shape} ")
+        print(f"Shape of y : {(self.y).shape} ")
+        print(f"value_count of y : {(self.y).iloc[:,1].value_counts()} ")
+        """
         splitter =     QuantitySkewLabelsSplitter(class_per_client = 1)
         event_indicator = y.iloc[:,1].values
         idx = splitter.split(event_indicator , self.worldsize)[self.rank - 1]   
         print("type of  x " , type(x))
         self.x = x if complete else x.iloc[idx,:]
         self.y = y if complete else  y.iloc[idx,:] 
+        random_index = np.random.randint(0, self.y.shape[0])
+        if (self.y).iloc[random_index , 1] == False : 
+            (self.y).iloc[random_index , 1] = True
+        else : 
+            (self.y).iloc[random_index , 1] = False
 
         print(f"Envoy {self.rank} : ") 
         print(f"Shape of X : {(self.x).shape} ")
         print(f"Shape of y : {(self.y).shape} ")
         print(f"value_count of y : {(self.y).iloc[:,1].value_counts()} ")
+        """
 
         #self.x = x if complete else x[self.rank - 1::self.worldsize]
         #self.y = y if complete else y[self.rank - 1::self.worldsize]

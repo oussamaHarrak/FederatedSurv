@@ -6,7 +6,7 @@ aggregator:
     init_state_path: save/init.pbuf
     last_state_path: save/last.pbuf
     nn: false
-    rounds_to_train: 100
+    rounds_to_train: 50
     write_logs: false
   template: openfl.component.aggregator.Aggregator
 api_layer:

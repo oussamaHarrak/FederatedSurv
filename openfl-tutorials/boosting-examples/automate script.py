@@ -248,3 +248,31 @@ commands = generate_commands( base_dir , num_envoys , distribution )
 
 # Run the commands in separate Anaconda prompts
 run_commands_in_separate_prompts(commands)
+"""
+def run_commands_in_separate_prompts(commands):
+    # Create a list to store the processes
+    processes = []
+
+    # Start each command in a separate batch file and store the process in the >
+    for i, cmd in enumerate(commands):
+        batch_file = f"command_{i}.bat"
+        with open(batch_file, "w") as f:
+            f.write("#!/bin/bash\n")
+            f.write(cmd)
+
+        try:
+            process = subprocess.Popen(
+                ["bash", batch_file],
+                shell=False,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE
+            )
+            processes.append(process)
+            print(f"Command_{i} started. Log will be saved to 'log_command_{i}.>
+        except subprocess.CalledProcessError as e:
+            print("Error:", e)
+
+    for i, process in enumerate(processes[1:], start=1):
+        process.wait()
+        print(f"Command_{i} finished. Log is saved to 'log_command_{i}.txt'.")
+"""

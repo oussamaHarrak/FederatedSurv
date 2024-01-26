@@ -1,0 +1,210 @@
+2023-08-17 14:40:17,829 INFO    StreamThr :17932 [internal.py:wandb_internal():86] W&B internal server running at pid: 17932, started at: 2023-08-17 14:40:17.667878
+2023-08-17 14:40:17,845 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status
+2023-08-17 14:40:17,862 INFO    WriterThread:17932 [datastore.py:open_for_write():85] open: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\run-9p96new0.wandb
+2023-08-17 14:40:17,962 DEBUG   SenderThread:17932 [sender.py:send():375] send: header
+2023-08-17 14:40:18,129 DEBUG   SenderThread:17932 [sender.py:send():375] send: run
+2023-08-17 14:40:19,838 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: check_version
+2023-08-17 14:40:19,913 INFO    SenderThread:17932 [dir_watcher.py:__init__():219] watching files in: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files
+2023-08-17 14:40:19,913 INFO    SenderThread:17932 [sender.py:_start_run_threads():1124] run started: 9p96new0 with start time 1692276017.667878
+2023-08-17 14:40:19,914 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: summary_record
+2023-08-17 14:40:20,096 INFO    SenderThread:17932 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-17 14:40:20,096 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: check_version
+2023-08-17 14:40:20,363 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: run_start
+2023-08-17 14:40:21,012 DEBUG   HandlerThread:17932 [system_info.py:__init__():31] System info init
+2023-08-17 14:40:21,012 DEBUG   HandlerThread:17932 [system_info.py:__init__():46] System info init done
+2023-08-17 14:40:21,012 INFO    HandlerThread:17932 [system_monitor.py:start():181] Starting system monitor
+2023-08-17 14:40:21,028 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\wandb-summary.json
+2023-08-17 14:40:21,113 INFO    SystemMonitor:17932 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-17 14:40:21,113 INFO    HandlerThread:17932 [system_monitor.py:probe():201] Collecting system info
+2023-08-17 14:40:21,113 DEBUG   HandlerThread:17932 [system_info.py:probe():195] Probing system
+2023-08-17 14:40:21,130 DEBUG   HandlerThread:17932 [system_info.py:_probe_git():180] Probing git
+2023-08-17 14:40:21,230 INFO    SystemMonitor:17932 [interfaces.py:start():190] Started cpu monitoring
+2023-08-17 14:40:21,261 INFO    SystemMonitor:17932 [interfaces.py:start():190] Started disk monitoring
+2023-08-17 14:40:21,281 INFO    SystemMonitor:17932 [interfaces.py:start():190] Started memory monitoring
+2023-08-17 14:40:21,328 INFO    SystemMonitor:17932 [interfaces.py:start():190] Started network monitoring
+2023-08-17 14:40:22,197 DEBUG   HandlerThread:17932 [system_info.py:_probe_git():188] Probing git done
+2023-08-17 14:40:22,197 DEBUG   HandlerThread:17932 [system_info.py:probe():240] Probing system done
+2023-08-17 14:40:22,197 DEBUG   HandlerThread:17932 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-08-17T12:40:21.113193', 'startedAt': '2023-08-17T12:40:17.497113', 'docker': None, 'cuda': None, 'args': ('envoy', 'start', '-n', 'envoy_6', '--disable-tls', '--envoy-config-path', 'envoy_config.yaml', '-dh', 'localhost', '-dp', '50054'), 'state': 'running', 'program': '-m __main__', 'git': {'remote': 'git@github.com:oussamaHarrak/FederatedSurv.git', 'commit': '3fd5c3f04fc89d5dcb2c4a6926997a517d9ea1b2'}, 'email': 'harrak.oussama2002@gmail.com', 'root': 'C:/Users/DELL/Downloads/FederatedLearning/OpenFL-extended', 'host': 'DESKTOP-5AJHE86', 'username': 'DELL', 'executable': 'C:\\Users\\DELL\\anaconda3\\envs\\myenv\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2301.0, 'min': 0.0, 'max': 2301.0}, 'cpu_freq_per_core': [{'current': 2301.0, 'min': 0.0, 'max': 2301.0}], 'disk': {'total': 133.58313751220703, 'used': 131.04967880249023}, 'memory': {'total': 7.874275207519531}}
+2023-08-17 14:40:22,197 INFO    HandlerThread:17932 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-17 14:40:22,197 INFO    HandlerThread:17932 [system_monitor.py:probe():214] Publishing system info
+2023-08-17 14:40:22,197 DEBUG   HandlerThread:17932 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-17 14:40:22,197 DEBUG   HandlerThread:17932 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-17 14:40:22,197 DEBUG   HandlerThread:17932 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-17 14:40:22,213 ERROR   HandlerThread:17932 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] Le fichier spécifié est introuvable
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\DELL\anaconda3\envs\myenv\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] Le fichier spécifié est introuvable
+2023-08-17 14:40:22,213 DEBUG   HandlerThread:17932 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-17 14:40:22,213 INFO    HandlerThread:17932 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-17 14:40:22,245 DEBUG   SenderThread:17932 [sender.py:send():375] send: files
+2023-08-17 14:40:22,245 INFO    SenderThread:17932 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-08-17 14:40:22,278 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:40:22,278 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:40:22,629 DEBUG   SenderThread:17932 [sender.py:send():375] send: telemetry
+2023-08-17 14:40:22,861 INFO    wandb-upload_0:17932 [upload_job.py:push():137] Uploaded file C:\Users\DELL\AppData\Local\Temp\tmpard3pa0jwandb\vfflfll1-wandb-metadata.json
+2023-08-17 14:40:23,078 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\wandb-metadata.json
+2023-08-17 14:40:23,078 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:23,078 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\conda-environment.yaml
+2023-08-17 14:40:23,078 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\requirements.txt
+2023-08-17 14:40:23,677 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:40:25,161 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:26,144 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:40:27,210 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:28,927 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:40:29,460 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:31,526 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:32,026 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:40:33,576 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:34,260 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:40:34,393 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:40:35,643 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:37,292 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:40:37,292 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:40:37,660 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:39,692 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:40:39,742 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:40,092 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:40:41,792 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:41,942 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:40:43,858 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:44,741 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:40:45,877 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:47,957 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:49,391 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:40:50,061 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:50,573 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:40:51,107 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\config.yaml
+2023-08-17 14:40:51,490 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:40:52,108 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:52,290 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:40:52,290 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:40:54,173 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:55,862 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:40:56,208 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:58,296 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:40:59,575 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:00,348 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:00,874 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:01,589 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:02,422 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:04,470 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:05,921 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:06,505 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:07,454 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:41:07,454 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:41:10,254 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:11,593 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:11,787 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:12,387 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:12,887 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:15,053 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:16,873 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:17,120 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:19,250 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:21,666 DEBUG   SystemMonitor:17932 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-17 14:41:21,668 DEBUG   SenderThread:17932 [sender.py:send():375] send: stats
+2023-08-17 14:41:22,493 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:41:22,494 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:41:22,728 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:22,739 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:24,785 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:25,785 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:27,835 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:27,952 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:30,018 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:32,217 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:33,301 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:36,218 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:37,517 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:41:37,517 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:41:37,817 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:38,383 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:38,451 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:39,883 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:41,903 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:43,999 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:43,999 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:49,348 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:49,582 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:51,781 DEBUG   SenderThread:17932 [sender.py:send():375] send: stats
+2023-08-17 14:41:52,215 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-17 14:41:52,431 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:52,531 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:41:52,531 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:41:54,464 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:54,530 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:41:56,497 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:58,530 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:41:59,612 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:00,563 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:02,596 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:04,629 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:04,695 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:06,662 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:07,545 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:42:07,546 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:42:08,695 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:09,779 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:10,728 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:12,761 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:14,794 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:14,844 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:16,811 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:18,844 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:19,927 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:20,877 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:21,793 DEBUG   SenderThread:17932 [sender.py:send():375] send: stats
+2023-08-17 14:42:22,560 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:42:22,560 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:42:22,910 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:24,943 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:24,993 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:26,976 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:29,009 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:30,074 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:31,042 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:33,075 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:35,091 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:35,158 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:37,108 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:37,574 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:42:37,574 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:42:39,141 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:40,223 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:41,174 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:43,207 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:45,240 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:45,306 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:47,273 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:49,306 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:50,389 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:51,339 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:51,806 DEBUG   SenderThread:17932 [sender.py:send():375] send: stats
+2023-08-17 14:42:52,589 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:42:52,589 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:42:53,372 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:55,405 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:55,455 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:42:57,438 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:42:59,471 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:43:00,520 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:43:01,504 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:43:03,537 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:43:05,570 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:43:05,586 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:43:07,603 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-17 14:43:07,603 DEBUG   SenderThread:17932 [sender.py:send_request():402] send_request: stop_status
+2023-08-17 14:43:07,603 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:43:09,636 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:43:10,669 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report
+2023-08-17 14:43:11,652 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:43:13,682 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:43:15,702 INFO    Thread-18 :17932 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\DELL\Downloads\FederatedLearning\OpenFL-extended\openfl-tutorials\boosting-examples\CoxPH\AdaBoostF_FL_Chain\envoy_6\envoy_6_AdaboostF_Fl_Chain\wandb\run-20230817_144017-9p96new0\files\output.log
+2023-08-17 14:43:15,751 DEBUG   HandlerThread:17932 [handler.py:handle_request():144] handle_request: status_report

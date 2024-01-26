@@ -30,10 +30,8 @@ class Fl_Chain_ShardDataset(ShardDataset):
         """Initialize TinyImageNetDataset."""
         self.data_type = data_type
         self.rank = rank
-        self.worldsize = worldsize
-        splitter = RandomNumPyDataSplitter()
-        #QuantitySkewLabelsSplitter(class_per_client = 2 )
-        idx = splitter.split(y.iloc[:,1] , self.worldsize)[self.rank - 1]         
+        self.worldsize = worldsize        
+        #idx = splitter.split(y.iloc[:,1] , self.worldsize)[self.rank - 1]         
         self.x = x if complete else x.iloc[idx , :]
         self.y = y if complete else  y.iloc[idx,:] 
         #self.x = x if complete else #x[self.rank - 1::self.worldsize]
